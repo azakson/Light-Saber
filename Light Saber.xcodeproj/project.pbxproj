@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58DD3BAF23957AE900F51DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD3BAE23957AE900F51DBC /* AppDelegate.swift */; };
+		58DD3BB123957AE900F51DBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD3BB023957AE900F51DBC /* SceneDelegate.swift */; };
+		58DD3BB323957AE900F51DBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD3BB223957AE900F51DBC /* ViewController.swift */; };
+		58DD3BB623957AE900F51DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DD3BB423957AE900F51DBC /* Main.storyboard */; };
+		58DD3BB823957AF000F51DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DD3BB723957AF000F51DBC /* Assets.xcassets */; };
+		58DD3BBB23957AF000F51DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DD3BB923957AF000F51DBC /* LaunchScreen.storyboard */; };
+		58DD3BC623957AF000F51DBC /* Light_SaberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD3BC523957AF000F51DBC /* Light_SaberTests.swift */; };
+		58DD3BD123957AF000F51DBC /* Light_SaberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DD3BD023957AF000F51DBC /* Light_SaberUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58DD3BC223957AF000F51DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DD3BA323957AE900F51DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58DD3BAA23957AE900F51DBC;
+			remoteInfo = "Light Saber";
+		};
+		58DD3BCD23957AF000F51DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DD3BA323957AE900F51DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58DD3BAA23957AE900F51DBC;
+			remoteInfo = "Light Saber";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58DD3BAB23957AE900F51DBC /* Light Saber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Light Saber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DD3BAE23957AE900F51DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58DD3BB023957AE900F51DBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58DD3BB223957AE900F51DBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58DD3BB523957AE900F51DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58DD3BB723957AF000F51DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58DD3BBA23957AF000F51DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58DD3BBC23957AF000F51DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58DD3BC123957AF000F51DBC /* Light SaberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Light SaberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DD3BC523957AF000F51DBC /* Light_SaberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light_SaberTests.swift; sourceTree = "<group>"; };
+		58DD3BC723957AF000F51DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58DD3BCC23957AF000F51DBC /* Light SaberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Light SaberUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DD3BD023957AF000F51DBC /* Light_SaberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light_SaberUITests.swift; sourceTree = "<group>"; };
+		58DD3BD223957AF000F51DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58DD3BA823957AE900F51DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DD3BBE23957AF000F51DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DD3BC923957AF000F51DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58DD3BA223957AE900F51DBC = {
+			isa = PBXGroup;
+			children = (
+				58DD3BAD23957AE900F51DBC /* Light Saber */,
+				58DD3BC423957AF000F51DBC /* Light SaberTests */,
+				58DD3BCF23957AF000F51DBC /* Light SaberUITests */,
+				58DD3BAC23957AE900F51DBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58DD3BAC23957AE900F51DBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58DD3BAB23957AE900F51DBC /* Light Saber.app */,
+				58DD3BC123957AF000F51DBC /* Light SaberTests.xctest */,
+				58DD3BCC23957AF000F51DBC /* Light SaberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58DD3BAD23957AE900F51DBC /* Light Saber */ = {
+			isa = PBXGroup;
+			children = (
+				58DD3BAE23957AE900F51DBC /* AppDelegate.swift */,
+				58DD3BB023957AE900F51DBC /* SceneDelegate.swift */,
+				58DD3BB223957AE900F51DBC /* ViewController.swift */,
+				58DD3BB423957AE900F51DBC /* Main.storyboard */,
+				58DD3BB723957AF000F51DBC /* Assets.xcassets */,
+				58DD3BB923957AF000F51DBC /* LaunchScreen.storyboard */,
+				58DD3BBC23957AF000F51DBC /* Info.plist */,
+			);
+			path = "Light Saber";
+			sourceTree = "<group>";
+		};
+		58DD3BC423957AF000F51DBC /* Light SaberTests */ = {
+			isa = PBXGroup;
+			children = (
+				58DD3BC523957AF000F51DBC /* Light_SaberTests.swift */,
+				58DD3BC723957AF000F51DBC /* Info.plist */,
+			);
+			path = "Light SaberTests";
+			sourceTree = "<group>";
+		};
+		58DD3BCF23957AF000F51DBC /* Light SaberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58DD3BD023957AF000F51DBC /* Light_SaberUITests.swift */,
+				58DD3BD223957AF000F51DBC /* Info.plist */,
+			);
+			path = "Light SaberUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58DD3BAA23957AE900F51DBC /* Light Saber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DD3BD523957AF000F51DBC /* Build configuration list for PBXNativeTarget "Light Saber" */;
+			buildPhases = (
+				58DD3BA723957AE900F51DBC /* Sources */,
+				58DD3BA823957AE900F51DBC /* Frameworks */,
+				58DD3BA923957AE900F51DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Light Saber";
+			productName = "Light Saber";
+			productReference = 58DD3BAB23957AE900F51DBC /* Light Saber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58DD3BC023957AF000F51DBC /* Light SaberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DD3BD823957AF000F51DBC /* Build configuration list for PBXNativeTarget "Light SaberTests" */;
+			buildPhases = (
+				58DD3BBD23957AF000F51DBC /* Sources */,
+				58DD3BBE23957AF000F51DBC /* Frameworks */,
+				58DD3BBF23957AF000F51DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58DD3BC323957AF000F51DBC /* PBXTargetDependency */,
+			);
+			name = "Light SaberTests";
+			productName = "Light SaberTests";
+			productReference = 58DD3BC123957AF000F51DBC /* Light SaberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58DD3BCB23957AF000F51DBC /* Light SaberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DD3BDB23957AF000F51DBC /* Build configuration list for PBXNativeTarget "Light SaberUITests" */;
+			buildPhases = (
+				58DD3BC823957AF000F51DBC /* Sources */,
+				58DD3BC923957AF000F51DBC /* Frameworks */,
+				58DD3BCA23957AF000F51DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58DD3BCE23957AF000F51DBC /* PBXTargetDependency */,
+			);
+			name = "Light SaberUITests";
+			productName = "Light SaberUITests";
+			productReference = 58DD3BCC23957AF000F51DBC /* Light SaberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58DD3BA323957AE900F51DBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = mojo;
+				TargetAttributes = {
+					58DD3BAA23957AE900F51DBC = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					58DD3BC023957AF000F51DBC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 58DD3BAA23957AE900F51DBC;
+					};
+					58DD3BCB23957AF000F51DBC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 58DD3BAA23957AE900F51DBC;
+					};
+				};
+			};
+			buildConfigurationList = 58DD3BA623957AE900F51DBC /* Build configuration list for PBXProject "Light Saber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58DD3BA223957AE900F51DBC;
+			productRefGroup = 58DD3BAC23957AE900F51DBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58DD3BAA23957AE900F51DBC /* Light Saber */,
+				58DD3BC023957AF000F51DBC /* Light SaberTests */,
+				58DD3BCB23957AF000F51DBC /* Light SaberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58DD3BA923957AE900F51DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DD3BBB23957AF000F51DBC /* LaunchScreen.storyboard in Resources */,
+				58DD3BB823957AF000F51DBC /* Assets.xcassets in Resources */,
+				58DD3BB623957AE900F51DBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DD3BBF23957AF000F51DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DD3BCA23957AF000F51DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58DD3BA723957AE900F51DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DD3BB323957AE900F51DBC /* ViewController.swift in Sources */,
+				58DD3BAF23957AE900F51DBC /* AppDelegate.swift in Sources */,
+				58DD3BB123957AE900F51DBC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DD3BBD23957AF000F51DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DD3BC623957AF000F51DBC /* Light_SaberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DD3BC823957AF000F51DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DD3BD123957AF000F51DBC /* Light_SaberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58DD3BC323957AF000F51DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58DD3BAA23957AE900F51DBC /* Light Saber */;
+			targetProxy = 58DD3BC223957AF000F51DBC /* PBXContainerItemProxy */;
+		};
+		58DD3BCE23957AF000F51DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58DD3BAA23957AE900F51DBC /* Light Saber */;
+			targetProxy = 58DD3BCD23957AF000F51DBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58DD3BB423957AE900F51DBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58DD3BB523957AE900F51DBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58DD3BB923957AF000F51DBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58DD3BBA23957AF000F51DBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58DD3BD323957AF000F51DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58DD3BD423957AF000F51DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58DD3BD623957AF000F51DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD42WQ9VF6;
+				INFOPLIST_FILE = "Light Saber/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AveryZ.Light-Saber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58DD3BD723957AF000F51DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD42WQ9VF6;
+				INFOPLIST_FILE = "Light Saber/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AveryZ.Light-Saber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58DD3BD923957AF000F51DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD42WQ9VF6;
+				INFOPLIST_FILE = "Light SaberTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AveryZ.Light-SaberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Light Saber.app/Light Saber";
+			};
+			name = Debug;
+		};
+		58DD3BDA23957AF000F51DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD42WQ9VF6;
+				INFOPLIST_FILE = "Light SaberTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AveryZ.Light-SaberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Light Saber.app/Light Saber";
+			};
+			name = Release;
+		};
+		58DD3BDC23957AF000F51DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD42WQ9VF6;
+				INFOPLIST_FILE = "Light SaberUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AveryZ.Light-SaberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Light Saber";
+			};
+			name = Debug;
+		};
+		58DD3BDD23957AF000F51DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD42WQ9VF6;
+				INFOPLIST_FILE = "Light SaberUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AveryZ.Light-SaberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Light Saber";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58DD3BA623957AE900F51DBC /* Build configuration list for PBXProject "Light Saber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DD3BD323957AF000F51DBC /* Debug */,
+				58DD3BD423957AF000F51DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DD3BD523957AF000F51DBC /* Build configuration list for PBXNativeTarget "Light Saber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DD3BD623957AF000F51DBC /* Debug */,
+				58DD3BD723957AF000F51DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DD3BD823957AF000F51DBC /* Build configuration list for PBXNativeTarget "Light SaberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DD3BD923957AF000F51DBC /* Debug */,
+				58DD3BDA23957AF000F51DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DD3BDB23957AF000F51DBC /* Build configuration list for PBXNativeTarget "Light SaberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DD3BDC23957AF000F51DBC /* Debug */,
+				58DD3BDD23957AF000F51DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58DD3BA323957AE900F51DBC /* Project object */;
+}
